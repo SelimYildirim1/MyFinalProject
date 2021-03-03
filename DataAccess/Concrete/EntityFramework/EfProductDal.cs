@@ -13,10 +13,7 @@ namespace DataAccess.Concrete.EntityFramework
 {
     public class EfProductDal : EfEntityRepositoryBase<Product, NorthwindContext>, IProductDal
     {
-        public List<ProductDetailDto> GetProductDetailDtos()
-        {
-            throw new NotImplementedException();
-        }
+       
 
         public List<ProductDetailDto> GetProductDetails()
         {
